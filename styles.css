@@ -1,0 +1,56 @@
+/* styles for main page(index.html) */
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.stylish-topbar {
+    background-color: #52D1F2;
+    padding: 40px;
+    margin: 0;
+    border: 0;
+    margin-bottom: 30px;
+}
+
+.title-container {
+  display: flex;         /* Activates Flexbox layout */
+  align-items: center;   /* Vertically aligns image and text centers */
+  justify-content: center;
+  gap: 12px;             /* Creates space between image and title */
+}
+
+.title {
+    font-size: 50px;
+}
+
+.recipes-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;                        /* Forces all cards to take up equal width */
+    min-width: 200px;               /* Prevents cards from getting too squished */
+    margin: 30px;
+    align-items: center;
+}
+
+.recipe-title {
+    text-align: center;
+}
+
+.recipe-img {
+    width: 100;
+    height: auto;
+    display: block;
+}
+
+
+
+
